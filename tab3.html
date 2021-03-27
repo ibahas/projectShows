@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القاعات والمصورات</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="top-header">
+            <nav>
+                <ul class="navbar-top">
+                    <li>
+                        <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i></a>
+                    </li>
+                    <li>|</li>
+                    <li id="date"> </li>
+                    <li>-</li>
+                    <li id="date1"> </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrap">
+            <img class="logoRight" src="logoRight.jpg" />
+            <img class="logoLeft" src="logoLeft.jpg" />
+
+        </div>
+        <div class="bottom-header">
+            <ul class="navbar">
+                <li>
+                    <a href="tab1.html">ميكب وهير ستايل</a>
+                </li>
+                <li>
+                    <a href="tab2.html">التنسيق والكوشات</a>
+                </li>
+                <li>
+                    <a href="tab3.html">القاعات والمصورات</a>
+                </li>
+                <li>
+                    <a href="tab4.html">الضيافة والحلويات</a>
+                </li>
+                <li>
+                    <a href="tab5.html">فساتين الزفاف والسهره</a>
+                </li>
+            </ul>
+        </div>
+        <h1 class="titleProject">القاعات والمصورات</h1>
+    </section>
+    <section id="3">
+        <div class="titleRow">القاعات</div>
+
+        <div class="titleTow">قصر الشلال للاحتفالات </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/3/1.JPG">
+            </div>
+            <div class="column">
+                <img src="images/3/2.JPG">
+            </div>
+
+        </div>
+
+        <div class="titleTow">قاعه فندق ساف للاحتفالات </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/3/3.JPG">
+            </div>
+            <div class="column">
+                <img src="images/3/4.JPG">
+            </div>
+        </div>
+
+        <div class="titleRow">المصورات</div>
+
+        <div class="titleTow">مها الطويان </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/3/2/1/1dd7e2ea-3189-4073-9c36-02bf7661a0e4.JPG">
+
+                <span class="dot">
+                    <a href="http://instagram.com/ma.x30"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+
+            </div>
+            <div class="column">
+                <img src="images/3/2/1/8e3bfafe-1e24-4c19-8133-f139ffc96461.JPG">
+            </div>
+            <div class="column">
+                <img src="images/3/2/1/e8e35e24-eded-4119-b2e1-b18403c5451e.JPG">
+            </div>
+        </div>
+
+        <div class="titleTow">امنيه </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/3/2/2/1.JPG">
+
+                <span class="dot">
+                    <a href="http://instagram.com/mno_406"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+
+            </div>
+            <div class="column">
+                <img src="images/3/2/2/2.JPG">
+            </div>
+            <div class="column">
+                <img src="images/3/2/2/3.jpg">
+            </div>
+        </div>
+
+
+        <div class="titleTow"> نوره الفرج </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/3/2/3/1.JPG">
+
+                <span class="dot">
+                    <a href="http://instagram.com/nora—alfaraj"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+
+            </div>
+            <div class="column">
+                <img src="images/3/2/3/2.JPG">
+            </div>
+            <div class="column">
+                <img src="images/3/2/3/3.jpg">
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script>
+        //التاريخ الهجري
+        var date = new Date();
+        options = {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+        };
+        document.getElementById("date").innerHTML = date.toLocaleDateString('ar-SA', options);
+        //التاريخ الميلادي
+        var date = new Date();
+        var months = ["يناير", "فبراير", "مارس", "إبريل", "مايو", "يونيو",
+            "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"
+        ];
+        var days = ["اﻷحد", "اﻷثنين", "الثلاثاء", "اﻷربعاء", "الخميس", "الجمعة", "السبت"];
+        var delDateString = date.getDate() + ' ' + months[date.getMonth()] + ' ' + date.getFullYear();
+        document.getElementById("date1").innerHTML = delDateString;
+    </script>
+</body>
+
+</html>

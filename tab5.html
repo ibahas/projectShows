@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فساتين الزفاف والسهره</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="top-header">
+            <nav>
+                <ul class="navbar-top">
+                    <li>
+                        <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i></a>
+                    </li>
+                    <li>|</li>
+                    <li id="date"> </li>
+                    <li>-</li>
+                    <li id="date1"> </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrap">
+            <img class="logoRight" src="logoRight.jpg" />
+            <img class="logoLeft" src="logoLeft.jpg" />
+
+        </div>
+        <div class="bottom-header">
+            <ul class="navbar">
+                <li>
+                    <a href="tab1.html">ميكب وهير ستايل</a>
+                </li>
+                <li>
+                    <a href="tab2.html">التنسيق والكوشات</a>
+                </li>
+                <li>
+                    <a href="tab3.html">القاعات والمصورات</a>
+                </li>
+                <li>
+                    <a href="tab4.html">الضيافة والحلويات</a>
+                </li>
+                <li>
+                    <a href="tab5.html">فساتين الزفاف والسهره</a>
+                </li>
+            </ul>
+        </div>
+        <h1 class="titleProject">فساتين الزفاف والسهره</h1>
+    </section>
+    <section id="5">
+        <div class="titleTow"> بوتيك منو </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/5/7832ea95-6f68-4fc6-a705-4b885193304c.JPG">
+                <span class="dot">
+                    <a href="http://instagram.com/mno12i"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+            </div>
+            <div class="titleTow"> بوتيك رهيد </div>
+            <div class="column">
+                <img src="images/5/7fc65ee8-5529-4c64-abcd-5ccbe0c1ced6.JPG">
+                <span class="dot">
+                    <a href="http://instagram.com/rahed _07"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <script>
+        //التاريخ الهجري
+        var date = new Date();
+        options = {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+        };
+        document.getElementById("date").innerHTML = date.toLocaleDateString('ar-SA', options);
+        //التاريخ الميلادي
+        var date = new Date();
+        var months = ["يناير", "فبراير", "مارس", "إبريل", "مايو", "يونيو",
+            "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"
+        ];
+        var days = ["اﻷحد", "اﻷثنين", "الثلاثاء", "اﻷربعاء", "الخميس", "الجمعة", "السبت"];
+        var delDateString = date.getDate() + ' ' + months[date.getMonth()] + ' ' + date.getFullYear();
+        document.getElementById("date1").innerHTML = delDateString;
+    </script>
+</body>
+
+</html>

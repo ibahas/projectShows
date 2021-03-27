@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ميكب وهير ستايل</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="top-header">
+            <nav>
+                <ul class="navbar-top">
+                    <li>
+                        <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i></a>
+                    </li>
+                    <li>|</li>
+                    <li id="date"> </li>
+                    <li>-</li>
+                    <li id="date1"> </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrap">
+            <img class="logoRight" src="logoRight.jpg" />
+            <img class="logoLeft" src="logoLeft.jpg" />
+
+        </div>
+        <div class="bottom-header">
+            <ul class="navbar">
+                <li>
+                    <a href="tab1.html">ميكب وهير ستايل</a>
+                </li>
+                <li>
+                    <a href="tab2.html">التنسيق والكوشات</a>
+                </li>
+                <li>
+                    <a href="tab3.html">القاعات والمصورات</a>
+                </li>
+                <li>
+                    <a href="tab4.html">الضيافة والحلويات</a>
+                </li>
+                <li>
+                    <a href="tab5.html">فساتين الزفاف والسهره</a>
+                </li>
+            </ul>
+        </div>
+        <h1 class="titleProject">ميكب وهير ستايل</h1>
+    </section>
+    <section id="1">
+        <div class="titleRow">ميكب </div>
+        <div class="titleTow">ساره ميكب ارتست |الباحة</div>
+        <div class="row">
+            <div class="column">
+                <img src="images/1/1/1.jpg">
+
+                <span class="dot">
+                    <a href="http://instagram.com/Saraalghamdi.beauty"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+
+            </div>
+            <div class="column">
+                <img src="images/1/1/2.jpg" alt="Forest">
+            </div>
+
+        </div>
+        <div class="titleTow">نوف الغامدي</div>
+        <div class="row">
+            <div class="column">
+                <img src="images/1/1/2/1.jpg">
+
+                <span class="dot">
+                    <a href="http://instagram.com/Nouf_iii99"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+
+            </div>
+            <div class="column">
+                <img src="images/1/1/2/2.jpg">
+            </div>
+            <div class="column">
+                <img src="images/1/1/2/3.jpg">
+            </div>
+
+        </div>
+        <div class="titleTow">منى الشهري</div>
+        <div class="row">
+            <div class="column">
+                <img src="images/1/1/3/IMG_8748.jpg">
+
+                <span class="dot">
+                    <a href="http://instagram.com/Mnosh_artist"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+
+            </div>
+            <div class="column">
+                <img src="images/1/1/3/IMG_8749.jpg">
+            </div>
+            <div class="column">
+                <img src="images/1/1/3/IMG_8750.jpg">
+            </div>
+
+        </div>
+
+        <div class="titleRow">هير ستايل</div>
+        <div class="titleTow">منى مصففة الشعر</div>
+        <div class="row">
+            <div class="column">
+                <img src="images/1/2/unnamed-9.png">
+
+                <span class="dot">
+                    <a href="http://instagram.com/mouahiair"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+
+            </div>
+            <div class="column">
+                <img src="images/1/2/unnamed-11.png">
+            </div>
+            <div class="column">
+                <img src="images/1/2/unnamed-8.png">
+            </div>
+
+        </div>
+
+        <div class="titleTow">فرح مصففة شعر</div>
+        <div class="row">
+            <div class="column">
+                <img src="images/1/2/unnamed-5.png">
+
+                <span class="dot">
+                    <a href="http://instagram.com/fara7_hairstylis"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+
+            </div>
+            <div class="column">
+                <img src="images/1/2/unnamed-6.png">
+            </div>
+            <div class="column">
+                <img src="images/1/2/unnamed-7.png">
+            </div>
+
+        </div>
+
+        <div class="titleTow">خلود هير ستايل </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/1/2/unnamed-4.png">
+
+                <span class="dot">
+                    <a href="http://instagram.com/k_hairstylest"><i class="fa fa-instagram fa-3x"></i></a>
+                </span>
+
+            </div>
+            <div class="column">
+                <img src="images/1/2/unnamed-3.png">
+            </div>
+            <div class="column">
+                <img src="images/1/2/unnamed-2.png">
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <script>
+        //التاريخ الهجري
+        var date = new Date();
+        options = {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+        };
+        document.getElementById("date").innerHTML = date.toLocaleDateString('ar-SA', options);
+        //التاريخ الميلادي
+        var date = new Date();
+        var months = ["يناير", "فبراير", "مارس", "إبريل", "مايو", "يونيو",
+            "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"
+        ];
+        var days = ["اﻷحد", "اﻷثنين", "الثلاثاء", "اﻷربعاء", "الخميس", "الجمعة", "السبت"];
+        var delDateString = date.getDate() + ' ' + months[date.getMonth()] + ' ' + date.getFullYear();
+        document.getElementById("date1").innerHTML = delDateString;
+    </script>
+</body>
+
+</html>
