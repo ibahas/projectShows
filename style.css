@@ -1,6 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@700&family=Lemonada:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+@font-face {
+    font-family: "Lemonada";
+    src: url("fonts/Lemonada/static/Lemonada-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Harmattan";
+    src: url("fonts/Harmattan/Harmattan-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Changa";
+    src: url("fonts/Changa/Changa-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "El Messiri";
+    src: url("fonts/El_Messiri/ElMessiri-Regular.ttf") format("truetype");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -161,7 +178,7 @@ a {
     margin-right: 4px;
 }
 
-.fa.fa-instagram {
+.fa-instagram {
     color: transparent;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
