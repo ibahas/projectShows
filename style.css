@@ -110,7 +110,7 @@ a {
     border-radius: 50%;
     width: 120px;
     height: 120px;
-    margin-left: 10%;
+    margin-left: 8%;
     background-color: #ff8701;
 }
 
@@ -120,21 +120,23 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    width: 113px;
 }
 
 .navbar>li:hover {
     background-color: #315055;
 }
-.navbar>li>a:nth-child(6){
-    width: 123px;
-}
-.navbar>li>a:nth-child(2){
+.navbar>li:nth-child(6)>a{
     width: 113px;
 }
+.navbar>li:nth-child(2)>a{
+    width: 113px;
+    padding: 17px;
+}
 
-.navbar>li>a:nth-child(1){
+.navbar>li:first-child>a{
     padding: 35px;
-    width: 100px;
+    width: 113px;
     margin-top: 5px;
 }
 
