@@ -102,6 +102,7 @@ a {
 .navbar {
     display: flex;
     margin-right: 40px;
+    margin-left: 40px;
 }
 
 .navbar>li {
