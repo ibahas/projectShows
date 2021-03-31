@@ -125,6 +125,12 @@ a {
 .navbar>li:hover {
     background-color: #315055;
 }
+.navbar>li>a:nth-child(6){
+    width: 123px;
+}
+.navbar>li>a:nth-child(2){
+    width: 113px;
+}
 
 .column {
     float: right;
