@@ -125,7 +125,9 @@ a {
 .navbar>li:hover {
     background-color: #315055;
 }
-
+.navbar>li:nth-child(n+2):nth-child(-n+6) {
+      width: 100px;
+}
 .column {
     float: right;
     width: 33.33%;
