@@ -132,6 +132,13 @@ a {
     width: 113px;
 }
 
+.navbar>li>a:nth-child(1){
+    padding: 35px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+
 .column {
     float: right;
     width: 33.33%;
