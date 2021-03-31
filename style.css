@@ -124,13 +124,6 @@ a {
 .navbar>li:hover {
     background-color: #315055;
 }
-.navbar>li:nth-child(2) {
-      width: 100px;
-      border-radius: 43% !important;
-}
-.navbar>li>a:nth-child(6) {
-      width: 124px;
-}
 
 .column {
     float: right;
