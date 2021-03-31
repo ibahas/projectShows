@@ -128,6 +128,7 @@ a {
 .navbar>li:nth-child(n+3):nth-child(-n+6) {
       width: 100px;
 }
+
 .column {
     float: right;
     width: 33.33%;
