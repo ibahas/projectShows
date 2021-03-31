@@ -129,6 +129,9 @@ a {
       width: 100px;
       border-radius: 43% !important;
 }
+.navbar>li:nth-child(6) {
+      width: 100px;
+}
 
 .column {
     float: right;
