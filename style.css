@@ -185,6 +185,10 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
 }
+video{
+    margin-top: 3rem;
+}
+
 
 .video {
     text-align: center;
