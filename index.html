@@ -2,12 +2,20 @@
 <html lang="ar" dir="rtl">
 
 <head>
+    <!--  هان بنستدعي انه الصفحة تكون تدعم العربي -->
     <meta charset="UTF-8">
+    <!--هان بنستدعي نوع الجهاز الي بده يدخل ع الموقع وحجمه ممكن -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- هان اسم الصفحة -->
     <title>خلها ونحلها</title>
+    <!-- هان بنستعدي ملف  css
+     تبع الألوان والخطوط والأشكال زي الدائره .-->
     <link rel="stylesheet" href="style.css">
+    <!-- هان بنستعدي ملف الأيقونات زي ال
+      HOME و Instagram وممكن غيرها -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <!-- هان بدل الملف ممكن اكتب شي معين بدي ايه يكون بختلف عن غيرهفي اي صفحة صانية بال  css-->
     <style>
         .titleProject {
             margin-top: -10px !important;
@@ -17,8 +25,14 @@
 
 <body>
     <section>
+        <!-- هان بستخدم div
+         عشان تحجز لي السطر كله وممكن اعدله بالcss -->
         <div class="top-header">
             <nav>
+                <!-- بستخدم ال class 
+                 بتسمه Attribute  يعني شي داخل ال
+                  Tag  فكرته للتأشير فقط في 
+                 Css  , Js-->
                 <ul class="navbar-top">
                     <li>
                         <a target="_black" href="index.html"> <i class="fa fa-home" aria-hidden="true"></i></a>
@@ -31,13 +45,14 @@
                 </ul>
             </nav>
         </div>
+        <!-- هان هاي الشغله للصورتين الي في اول الصفحة واحده يمين والثانية شمال بس-->
         <div class="wrap">
             <img class="logoRight" src="logoRight.png" />
             <img class="logoLeft" src="logoLeft.png" />
-
         </div>
+        <!-- هاي للعنزان تبع الصفحة الي ببين تحت الصورتين-->
         <h1 class="titleProject">خلها ونحلهــــا</h1>
-
+         <!--  هاي الدوائر  الي بتبين  فيها الروابط تبعون الصفحات-->
         <div class="bottom-header">
             <ul class="navbar">
                 <li>
@@ -61,8 +76,14 @@
             </ul>
         </div>
     </section>
+
+   <!-- هذا كود js 
+    فكرت الجافا سكربت انه بتعمل عمليات حسابية وممكن شغلات قتنيو زي كيف ممكن تفحصي النت في الصفحة وغيرها شغلات ما بتوقف هاي اللغة ...-->
     <script>
-        //التاريخ الهجري
+        //التاريخ الهجري 
+        //  فكرت ال new انها تعنل شي جديد
+        //فكرت ال Date()  تجيب تاريخ اليوم .
+        // options  فكرتها انك تغير في طريقة عرضها. 
         var date = new Date();
         options = {
             weekday: 'long',
@@ -70,6 +91,11 @@
             month: 'short',
             day: 'numeric',
         };
+        // هان الطباعة 
+        //عن طريق  Id  عنصر معين. 
+
+
+         //نفس الي فوق بس بختلف قي شغلات بس شي بسيط يعني 
         document.getElementById("date").innerHTML = date.toLocaleDateString('ar-SA', options);
         //التاريخ الميلادي
         var date = new Date();
