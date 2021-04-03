@@ -1,3 +1,4 @@
+ /* هاي لاضافة ملفات الخطوط مع اضافة اسم الخط ومكانه   ونوعه */
 @font-face {
     font-family: "Lemonada";
     src: url("fonts/Lemonada/static/Lemonada-Regular.ttf") format("truetype");
@@ -17,11 +18,13 @@
     font-family: "El Messiri";
     src: url("fonts/El_Messiri/ElMessiri-Regular.ttf") format("truetype");
 }
-
+/* هاي معنها لكل العناصر */
 * {
     box-sizing: border-box;
 }
 
+
+/* هيك بستخدم عنصر معين يعني  Tag */
 h1,
 h2,
 h3 {
@@ -37,8 +40,15 @@ body {
     padding: 0px;
     background-color: #FFD8AA;
 }
+/* واذا بدك تأشري على  ID بتستعملي قبله # 
+    يعني مثال  #Date
 
+.NameClass
+هسك بأشر على 
+class معين 
+*/
 .top-header {
+  
     background-color: #315055;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -51,14 +61,22 @@ ul {
     padding: 0;
 }
 
-.navbar-top {
+.navbar-top { 
+    /*معنها ازاحه من اليمين*/
     margin-right: 40px;
     margin-left: 40px;
 }
 
+/*  color هو اللون */
 .navbar-top>li {
     color: white;
 }
+
+/*Display معنها هان طريقة عرض يا اما 
+ Inline يعني على الخط
+او في none يعني ما تعرض الهذا الشي 
+ او block يعني خليه ع قد ما هو ياخذ حجمه*/
+
 
 li {
     display: inline;
@@ -77,8 +95,11 @@ a {
     display: inline;
     width: 300px;
     height: 200px;
+    /*هاي معنها انه تكون الها حفة ناعمه*/
     border-radius: 50%;
 }
+
+/*هذول الصور*/
 
 .logoLeft {
     float: left !important;
@@ -87,7 +108,7 @@ a {
 .logoRight {
     float: right !important;
 }
-
+/*عنوان الصفحة الي تحت الصورتين */
 .titleProject {
     font-weight: bold;
     font-size: 140px;
@@ -201,6 +222,8 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
 }
+
+/*هان للفيديو*/
 video{
     margin-top: 3rem;
 }
